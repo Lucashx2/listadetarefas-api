@@ -15,11 +15,11 @@ O projeto é dividido em três repositórios independentes que se comunicam via 
 
 -   **2. Frontend Web:**
     -   Cliente web moderno construído com **Angular**.
-    -   Link para o repositório: `https://github.com/RafaelSilvaGomes/lista-tarefas-web`
+    -   Link para o repositório: `https://github.com/Lucashx2/listadetarefas-web`
 
 -   **3. Frontend Desktop:**
     -   Cliente desktop nativo construído com **JavaFX**.
-    -   Link para o repositório: `https://github.com/RafaelSilvaGomes/lista-tarefas-desktop`
+    -   Link para o repositório: `https://github.com/Lucashx2/listadetarefas-desktop`
 
 ### Tecnologias Utilizadas
 -   Java 21
@@ -29,13 +29,12 @@ O projeto é dividido em três repositórios independentes que se comunicam via 
 -   H2 Database
 
 ### Como Executar
-1.  **Pré-requisitos:** Ter o JDK 21 instalado.
-2.  Clone este repositório: `git clone https://github.com/RafaelSilvaGomes/lista-tarefas-api.git`
-3.  Abra o projeto em sua IDE (VS Code, IntelliJ, etc.).
-4.  Execute a classe principal `ListaTarefasApiApplication.java`.
-5.  Caso esteja no VS Code instale a extensão 'Spring Boot Dashboard'
-6.  Clique no icone da extensão e execute 'lista-tarefa-api'
-7.  A API estará rodando em `http://localhost:8080`.
+1.  **Pré-requisitos:** Ter o JDK 21 e o Maven instalados.
+2.  Clone este repositório: `git clone https://github.com/Lucashx2/listadetarefas-api.git`
+3.  Abra o projeto em sua IDE (VS Code, IntelliJ, Eclipse, etc.).
+4.  Aguarde a IDE baixar as dependências do Maven.
+5.  Execute a classe principal `ListaTarefasApiApplication.java`.
+6.  A API estará rodando em `http://localhost:8080`.
 
 ### Endpoints da API
 
@@ -47,4 +46,4 @@ O projeto é dividido em três repositórios independentes que se comunicam via 
 | `DELETE`| `/api/tarefas/{id}` | Deleta uma tarefa.             |
 
 ---
-**Autor:** Rafael Silva Gomes
+**Autor:** Lucas Lopes Gonçalves
